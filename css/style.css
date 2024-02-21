@@ -1,7 +1,64 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+
+*{
+    border: red solid 0.1px;
+    color: #ffffff;
+    font-family: 'Lora';
+}
+
 
 body{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    background-image: url(https://images2.alphacoders.com/102/1020353.jpg);
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+    border: 1px solid;
+    background-color: transparent;
+    transition: all 1s ease-in-out;
+}
+
+.navbar_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        padding: 50px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+
+.contacAndIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.insertdata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
